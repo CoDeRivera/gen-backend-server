@@ -15,6 +15,8 @@ router.post('/', (req,res) => {
     });
 });
 
+//Handles the GET request from server.js /products path with
+//dynamic variable of productId
 router.get('/:productId', (req,res) => {
     const id = req.params.productId;
     if(id === 'special'){
