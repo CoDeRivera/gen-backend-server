@@ -1,0 +1,14 @@
+{
+  "name": "gen-backend",
+  "version": "1.0.0",
+  "description": "Generic Backend Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SHaDoWCoDe64",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

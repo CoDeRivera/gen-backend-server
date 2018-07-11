@@ -4,7 +4,6 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 
-
 const productRoutes = require('./api/routes/products');
 
 //First Middleware Ive written
@@ -14,7 +13,8 @@ const productRoutes = require('./api/routes/products');
 //     });
 // });
 
-//Only requests that start with /products path will be handled by productRoutes and forwarded to /api/routes/products.js
+//Only requests that start with /products path will be handled 
+//by productRoutes and forwarded to /api/routes/products.js
 app.use('/products', productRoutes);
 
 
